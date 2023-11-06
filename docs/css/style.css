@@ -1,0 +1,507 @@
+@font-face {
+    font-family: "GmarketSansMedium";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html>body {
+    font-family: "GmarketSansMedium";
+}
+
+.top-bar>.con {
+    /* 	position: relative; */
+    border-bottom: 1px solid;
+}
+
+.top-bar-menu>.about {
+    position: relative;
+}
+
+.top-bar-menu>.about>.edge {
+    position: absolute;
+    border-top: 3px solid #ee8100;
+    border-left: 3px solid #ee8100;
+    width: 10px;
+    height: 10px;
+    left: 22%;
+    top: -7%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.top-bar-menu>.people {
+    position: relative;
+}
+
+.top-bar-menu>.people>.edge {
+    position: absolute;
+    border-top: 3px solid #ee8100;
+    border-left: 3px solid #ee8100;
+    width: 10px;
+    height: 10px;
+    left: 20%;
+    top: -7%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.top-bar-menu>.portfolio {
+    position: relative;
+}
+
+.top-bar-menu>.portfolio>.edge {
+    position: absolute;
+    border-top: 3px solid #ee8100;
+    border-left: 3px solid #ee8100;
+    width: 10px;
+    height: 10px;
+    left: 19%;
+    top: -7%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.top-bar-menu>.global {
+    position: relative;
+}
+
+.top-bar-menu>.global>.edge {
+    position: absolute;
+    border-top: 3px solid #ee8100;
+    border-left: 3px solid #ee8100;
+    width: 10px;
+    height: 10px;
+    left: 21%;
+    top: -7%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.top-bar-menu>.news {
+    position: relative;
+}
+
+.top-bar-menu>.news>.edge {
+    position: absolute;
+    border-top: 3px solid #ee8100;
+    border-left: 3px solid #ee8100;
+    width: 10px;
+    height: 10px;
+    left: 22%;
+    top: -7%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.top-bar-menu>li>a:hover {
+    color: orange;
+}
+
+.top-bar-menu>li>a:hover+.edge {
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+.section-box>.con {
+    width: 1160px;
+    height: 980px;
+    margin: 0 auto;
+    padding-top: 150px;
+    position: relative;
+    /* 	padding : 224px 0 147px; */
+}
+
+.section-box>.con>h2 {
+    font-size: 88px;
+    font-weight: bold;
+    margin: 0 0 50px;
+}
+
+.section-box>.con>.text {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 100px;
+}
+
+.section-box .swiper-container {
+    display: flex;
+    margin-left: 280px;
+}
+
+
+
+.section-box .swiper-container>.edge {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-top: 20px solid #ee8100;
+    border-right: 20px solid #ee8100;
+    left: 64%;
+    top: 48.9%;
+}
+
+.section-box .icon-box img {
+    position: absolute;
+    top: 80%;
+    right: 0;
+}
+
+.space-1 {
+    height: 150px;
+    background-color: #f3f5f7;
+}
+
+.banner-box {
+    background-color: #f3f5f7;
+    height: 1325px;
+    /* 	position : relative; */
+}
+
+.banner-box>.con {
+    width: 1160px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.banner-box .banner-box-box2-box1 {
+    display: flex;
+    height: 50%;
+}
+
+.banner-box>.con>.banner-box-box1 {
+    position: relative;
+    height: 40%;
+}
+
+.banner-box>.con>.banner-box-box1>.edge {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-top: 15px solid #ee8100;
+    border-left: 15px solid #ee8100;
+    top: -3%;
+    left: -2%;
+}
+
+.banner-box>.con>.banner-box-box1>h2 {
+    font-size: 72px;
+    color: #08243c;
+    font-weight: bold;
+}
+
+.banner-box>.con>.banner-box-box1>h2>span {
+    color: #ee8100;
+}
+
+.banner-box>.con>.banner-box-box1>p {
+    font-size: 22px;
+    color: #08243c;
+}
+
+.banner-box>.con>.banner-box-box1>span {
+    font-size: 18px;
+    color: #9e9e9e;
+}
+
+.banner-box>.con>div:last-child {
+    height: 60%;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box1>.space-box {
+    width: 33%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box1>.aum {
+    width: 33%;
+    border-top: 1px solid;
+    padding: 40px 0;
+    margin: 20px;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box1>.aum>p {
+    font-size: 18px;
+    color: #9e9e9e;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box1>.aum>h3 {
+    font-size: 60px;
+    color: #08243c;
+    font-weight: bold;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box1>.aum>h3>span {
+    font-size: 48px;
+    color: #08243c;
+    font-weight: bold;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box1>.Gross {
+    width: 33%;
+    border-top: 1px solid;
+    padding: 40px 0;
+    margin: 20px;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box1>.Gross>p {
+    font-size: 18px;
+    color: #9e9e9e;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box1>.Gross>h3 {
+    font-size: 60px;
+    color: #08243c;
+    font-weight: bold;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box2 {
+    display: flex;
+    height: 50%;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box2>.sangjang {
+    width: 33%;
+    border-top: 1px solid;
+    padding: 40px 0;
+    margin: 20px;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box2>.sangjang>p {
+    font-size: 18px;
+    color: #9e9e9e;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box2>.sangjang>h3 {
+    font-size: 60px;
+    color: #08243c;
+    font-weight: bold;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box2>.toja {
+    width: 33%;
+    border-top: 1px solid;
+    padding: 40px 0;
+    margin: 20px;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box2>.toja>p {
+    font-size: 18px;
+    color: #9e9e9e;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box2>.toja>h3 {
+    font-size: 60px;
+    color: #08243c;
+    font-weight: bold;
+}
+
+.banner-box>.con>div:last-child>.banner-box-box2-box2>.space-box {
+    width: 33%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.space-2 {
+    height: 150px;
+    background-color: #051829;
+}
+
+.banner-box2 {
+    height: 1325px;
+    background-color: #051829;
+}
+
+.banner-box2>.con {
+    width: 1160px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+}
+
+.banner-box2>.con>div:first-child {
+    width: 50%;
+    position: relative;
+}
+
+.banner-box2>.con>div:first-child>.text>h2 {
+    font-size: 74px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.banner-box2>.con>div:first-child>.text>h2>p {
+    font-size: 22px;
+}
+
+.banner-box2>.con>div:first-child>.info {
+    position: absolute;
+    top: 60%;
+}
+
+.banner-box2>.con>div:first-child>.info>span {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.banner-box2>.con>div:first-child>.info>p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.banner-box2>.con>div:last-child {
+    width: 50%;
+    position: relative;
+}
+
+.banner-box2>.con>div:last-child>.first-box {
+    height: 60%;
+}
+
+.banner-box2>.con>div:last-child>.first-box>.people {
+    position: relative;
+    font-size: 26px;
+    color: #ffffff;
+    padding: 40px 0;
+    margin: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    justify-content: space-between;
+}
+
+.banner-box2>.con>div:last-child>.first-box>.people>a:hover {
+    color: #ee8100;
+}
+
+
+.banner-box2>.con>div:last-child>.first-box>.people>a>.arr span::after {
+    content: "";
+    width: 20px;
+    /* 사이즈 */
+    height: 20px;
+    /* 사이즈 */
+    border-top: 5px solid #ee8100;
+    /* 선 두께 */
+    border-right: 5px solid #ee8100;
+    /* 선 두께 */
+    /*     display: inline-block; */
+    transform: rotate(45deg);
+    /* 각도 */
+    position: absolute;
+    top: 35%;
+    /* 기본 0px 값으로 해주세요 */
+    right: 0;
+    /* 기본 0px 값으로 해주세요 */
+    opacity: 0;
+}
+
+.banner-box2>.con>div:last-child>.first-box>.people>a:hover>.arr span::after {
+    opacity: 1;
+}
+
+.banner-box2>.con>div:last-child>.first-box>.portfolio {
+    position: relative;
+    font-size: 26px;
+    color: #ffffff;
+    padding: 40px 0;
+    margin: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.banner-box2>.con>div:last-child>.first-box>.portfolio>a:hover {
+    color: #ee8100;
+}
+
+.banner-box2>.con>div:last-child>.first-box>.portfolio>a>.arr span::after {
+    content: "";
+    width: 20px;
+    /* 사이즈 */
+    height: 20px;
+    /* 사이즈 */
+    border-top: 5px solid #ee8100;
+    /* 선 두께 */
+    border-right: 5px solid #ee8100;
+    /* 선 두께 */
+    /*     display: inline-block; */
+    transform: rotate(45deg);
+    /* 각도 */
+    position: absolute;
+    top: 35%;
+    /* 기본 0px 값으로 해주세요 */
+    right: 0;
+    /* 기본 0px 값으로 해주세요 */
+    opacity: 0;
+}
+
+.banner-box2>.con>div:last-child>.first-box>.portfolio>a:hover>.arr span::after {
+    opacity: 1;
+}
+
+.banner-box2>.con>div:last-child>.first-box>.news {
+    position: relative;
+    font-size: 26px;
+    color: #ffffff;
+    padding: 40px 0;
+    margin: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.banner-box2>.con>div:last-child>.first-box>.news:hover {
+    color: #ee8100;
+}
+
+.banner-box2>.con>div:last-child>.first-box>.news>a>.arr span::after {
+    content: "";
+    width: 20px;
+    /* 사이즈 */
+    height: 20px;
+    /* 사이즈 */
+    border-top: 5px solid #ee8100;
+    /* 선 두께 */
+    border-right: 5px solid #ee8100;
+    /* 선 두께 */
+    /*     display: inline-block; */
+    transform: rotate(45deg);
+    /* 각도 */
+    position: absolute;
+    top: 35%;
+    /* 기본 0px 값으로 해주세요 */
+    right: 0;
+    /* 기본 0px 값으로 해주세요 */
+    opacity: 0;
+}
+
+.banner-box2>.con>div:last-child>.first-box>.news>a:hover>.arr span::after {
+    opacity: 1;
+}
+
+.banner-box2>.con>div:last-child>.last-box {
+    height: 40%;
+    position: absolute;
+    top: 58%;
+}
+
+.banner-box2>.con>div:last-child>.last-box>.stewardship {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.banner-box2>.con>div:last-child>.last-box>.stewardship>a:hover {
+    color: #ee8100;
+}
+
+.banner-box2>.con>div:last-child>.last-box>.esg {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.banner-box2>.con>div:last-child>.last-box>.esg:hover {
+    color: #ee8100;
+}
